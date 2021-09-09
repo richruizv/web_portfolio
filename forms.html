@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <legend>PLATZI Calendar (<b>first form</b>)</legend>
+            <label for="time">Time :
+                <input type="time" id="time" name="time">
+            </label>
+            <label for="day">Day :
+                <input type="day" id="day" name="day" autocomplete="on">
+            </label>
+            <label for="week">Week :
+                <input type="week" id="week" name="week">
+            </label>
+            <label for="month">Month :
+                <input type="month" id="month" name="month">
+            </label>
+            <input type="submit" value="Enviar" name="enviar">
+        </fieldset>
+    </form>
+    <form action="">
+        <fieldset>
+            <legend>PLATZI Calendar (<b>Second form</b>)</legend>
+
+            <label for="calendario">Calendario :</label>
+            <input type="datetime-local" id="calendario" name="calendario"><br><br>
+
+            <input type="submit" value="Enviar" name="enviar">
+        </fieldset>
+    </form>
+    <form action="">
+        <fieldset>
+            <legend>PLATZI Form </legend>
+            <label for="nombre">
+                <span>¿Cuál es tu nombre?</span>
+                <input type="text" name="nombre" id="nombre" autocomplete="name" required>
+            </label>
+            <label for="correo">
+                <span>¿Cuál es tu correo?</span>
+                <input type="email" name="correo" id="correo" autocomplete="email" required>
+            </label>
+            <label for="pais">
+                <span>¿En qué país vives?</span>
+                <input type="text" name="pais" id="pais" autocomplete="country" required>
+            </label>
+            <label for="cp">
+                <span>¿Cuál es tu código postal?</span>
+                <input type="number" name="cp" id="cp" autocomplete="cp" required>
+            </label>
+            <input type="submit">
+        </fieldset> 
+    </form>
+</body>
+</html>

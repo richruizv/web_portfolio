@@ -5,7 +5,8 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <meta name="description" content="Ricardo Ruíz Velazco blog">
     <meta name="robots" content="index,follow">
-    <title>Ricardo Ruíz | Back-end developer</title>
+    <link rel="icon" href="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9JzMwMHB4JyB3aWR0aD0nMzAwcHgnICBmaWxsPSIjRkZGRkZGIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2aWV3Qm94PSIwIDAgNTAgNTQiIHZlcnNpb249IjEuMSIgeD0iMHB4IiB5PSIwcHgiPjx0aXRsZT40MyAtR2VvbWV0cmljIEZvcm0tIChTb2xpZCk8L3RpdGxlPjxkZXNjPkNyZWF0ZWQgd2l0aCBTa2V0Y2guPC9kZXNjPjxnIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0zNTkuMDAwMDAwLCAtODEyLjAwMDAwMCkiIGZpbGw9IiNGRkZGRkYiPjxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDM1OS4wMDAwMDAsIDgxMi4wMDAwMDApIj48cG9seWdvbiBwb2ludHM9IjQ2Ljc0OSAzMC4yNDM3IDI2IDQwLjYxODcgMjYgNTMuMzg2NyI+PC9wb2x5Z29uPjxwb2x5Z29uIHBvaW50cz0iMjQgNTMuMzg2NyAyNCA0MC42MTc3IDMuMjUxIDMwLjI0MzciPjwvcG9seWdvbj48cG9seWdvbiBwb2ludHM9IjI2IDAuNjEzMyAyNiAzOC4zODIzIDQ5LjM4IDI2LjY5MjMiPjwvcG9seWdvbj48cG9seWdvbiBwb2ludHM9IjAuNjE5NiAyNi42OTE5IDIzLjk5OTYgMzguMzgxOSAyMy45OTk2IDAuNjEyOSI+PC9wb2x5Z29uPjwvZz48L2c+PC9nPjwvc3ZnPg==">
+    <title id="title">Ricardo Ruíz | Back-end developer</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
     <script src='main.js'></script>
@@ -13,27 +14,75 @@
 <body>
     <header>
         <nav>
-
+            <ul id="main-nav" class="nav">
+                <li><a href="">Home</a></li>
+                <li><a href="">Cursos</a></li>
+                <li><a href="">Instructores</a></li>
+                <li><a href="">Blog</a></li>
+            </ul>
         </nav>
     </header>
     <main>
-        <section>
-            <article>
-                <figure>
-                    <img src="https://static.platzi.com/media/achievements/badges-html-css-afa64acb-64a4-486d-96a5-f930fbb7ee32.png" alt="Platzi logo">
-                    <figcaption>
-                        Logo of html and css
-                    </figcaption>
-                    <img src="https://static.platzi.com/media/achievements/badges-html-css-afa64acb-64a4-486d-96a5-f930fbb7ee32.png" alt="Platzi logo">
-                    <figcaption>
-                        Logo of html and css
-                    </figcaption>
-                </figure>
-
-            </article>
+        <section id="landing">
+            <img id="landing--logo" src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9JzMwMHB4JyB3aWR0aD0nMzAwcHgnICBmaWxsPSIjRkZGRkZGIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2aWV3Qm94PSIwIDAgNTAgNTQiIHZlcnNpb249IjEuMSIgeD0iMHB4IiB5PSIwcHgiPjx0aXRsZT40MyAtR2VvbWV0cmljIEZvcm0tIChTb2xpZCk8L3RpdGxlPjxkZXNjPkNyZWF0ZWQgd2l0aCBTa2V0Y2guPC9kZXNjPjxnIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0zNTkuMDAwMDAwLCAtODEyLjAwMDAwMCkiIGZpbGw9IiNGRkZGRkYiPjxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDM1OS4wMDAwMDAsIDgxMi4wMDAwMDApIj48cG9seWdvbiBwb2ludHM9IjQ2Ljc0OSAzMC4yNDM3IDI2IDQwLjYxODcgMjYgNTMuMzg2NyI+PC9wb2x5Z29uPjxwb2x5Z29uIHBvaW50cz0iMjQgNTMuMzg2NyAyNCA0MC42MTc3IDMuMjUxIDMwLjI0MzciPjwvcG9seWdvbj48cG9seWdvbiBwb2ludHM9IjI2IDAuNjEzMyAyNiAzOC4zODIzIDQ5LjM4IDI2LjY5MjMiPjwvcG9seWdvbj48cG9seWdvbiBwb2ludHM9IjAuNjE5NiAyNi42OTE5IDIzLjk5OTYgMzguMzgxOSAyMy45OTk2IDAuNjEyOSI+PC9wb2x5Z29uPjwvZz48L2c+PC9nPjwvc3ZnPg==" alt="Ricardo Ruíz logo, crystal logo">
+            <h1>Ricardo Ruíz velazco</h1>
+            <p> Insert short presentation about what i'm doing here</p>
+            <button> Contact me! </button>
+        </section>
+        <section id="about-me">
+            <h2>About me</h2>
+            <img id="about-me--img" src="https://c8.alamy.com/comp/2C1E622/serious-computer-programmer-developer-working-in-it-office-sitting-at-desk-and-coding-working-on-a-project-in-software-development-company-or-2C1E622.jpg">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, nulla? Exercitationem maiores modi rem voluptatibus dolore porro sunt, officia veritatis obcaecati natus neque consequatur quasi fugiat cupiditate! Expedita, vel cum?</p>
+            <div>
+                <div>
+                    <h4>Back-end development</h4>
+                    <p>Description about what my projects are</p>
+                </div>
+                <div>
+                    <h4>Machine Learning Projects</h4>
+                    <p>Description about what my projects are</p>
+                </div>
+                <div>
+                    <h4>Mentoring</h4>
+                    <p>Description about what can i do for mentoring</p>
+                </div>
+            </div>
+            
+        </section>
+        <section id="projects">
+            <h2>Some of my experience</h2>
         </section>
     </main>
     <footer>
+        <section>
+            <div>
+                <p>Ricardo Ruíz Velazco</p>
+                <p>Back-end developer and Machine Learning Engineer</p>
+                <a href="#">Privacy policy</a>
+            </div>
+            <div>
+                <ul>
+                    <li>Home</li>
+                    <li>Projects</li>
+                    <li>Blog</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Twitter</li>
+                    <li>Linkedin</li>
+                    <li>Platzi</li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li>rich.ruiz.v@gmail.com</li>
+                    <li>+525572752744</li>
+                </ul>
+            </div>
+        </section>
 
     </footer>
 </body>
