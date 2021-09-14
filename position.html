@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            color: white;
+        }
+        @font-face {
+            font-family: 'Determination Mono Web';
+            src: url('fonts/DeterminationMonoWebRegular-Z5oq.woff'),
+            url('fonts/DeterminationMonoWebRegular-Z5oq.ttf')  format('truetype');
+        }
+        html{
+            font-size: 62.5%;
+            background-color: #202124;
+            font-family: 'Determination Mono Web';
+
+        }
+        
+        #container{
+            margin: 100px 25% 0 25%;
+            padding: 5% 10%;
+            min-height: 500px;
+            border: 2px solid white;
+            background-color: black;
+            position: relative;
+        }
+
+        #hearth_image{
+            width: 20%;
+            margin: 0 auto;
+            margin-top: 2.5rem;
+            display: block;
+        }
+
+        #flowey{
+            position: relative;
+            width: 25%;
+            display: block;
+            margin: -30% auto 0px auto;
+
+        }
+
+        #title_image{      
+            display: block;
+            width: 100%;   
+            margin: 0 auto;
+            margin-bottom: 2.5rem;
+
+        }
+
+        .container--description{
+            font-size: 3rem;
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="container">
+        <img id="flowey" src="assets_demo/flowey.png">
+        <img id="hearth_image"  src="assets_demo/hearth.svg">
+        <img id="title_image" src="https://fontmeme.com/permalink/210914/34810a7afb77ea69ea5c5a1b50ce6738.png" alt="undertale-logo-font" border="0">
+        <h4 class="container--description"> Positioning a box using CSS for the first time, it fills you with determination</h4>
+    </div>
+</body>
+</html>
