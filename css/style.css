@@ -1,0 +1,151 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&family=Roboto:wght@100;300;400;500;700&display=swap');
+
+:root {
+    --home-bg-color: #f2f3ee;
+    --menu-bg-color: #cbcbc2;
+    --silde-btn-border: #808080;
+    --slide-btn-bg: #ddf2db;
+    --slide-btn-hoverbg: #f1fff1;
+    --alpha-green: rgba(33, 96, 47, 0.51);
+    --icon-hover-color: #344a39;
+    --icon-hover-bg: #709680;
+    --text-color: #616161;
+    --border-color: #709680;
+    --heading-color: #344a39;
+    --box-shadow-color: #b5b5ac;
+    --lightest-green: #86a58d;
+    --light-green: #9ab09a;
+    --dark-green: rgba(52, 74, 57, 0.86);
+    --box-shadow: 0px 0px 3px 5px var(--box-shadow-color);
+    --border-radius: 60px 5px;
+    --fade-green: rgba(57, 87, 64, 0.55);
+  }
+  /*
+* { outline: 2px dotted red }
+* * { outline: 2px dotted green }
+* * * { outline: 2px dotted orange }
+* * * * { outline: 2px dotted blue }
+* * * * * { outline: 1px solid red }
+* * * * * * { outline: 1px solid green }
+* * * * * * * { outline: 1px solid orange }
+* * * * * * * * { outline: 1px solid blue }
+*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+h1,h2,h3,h4,h5{
+    font-family: 'Open Sans', sans-serif;
+}
+p,a{
+    font-size: 2em;
+}
+
+html{
+    font-size: 62.5%;
+    color: white;
+}
+
+
+.landing-title{
+    font-size: 3rem;
+    text-align: center;
+}
+.section{
+    padding: 3rem 10%;
+}
+/* --------------------------------------------------------- navigation ----------------------------------------------------------- */
+#header{
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+}
+#main-nav{
+    float: right;
+}
+#main-nav ul{
+    text-align: center;
+}
+#main-nav ul>li{
+    display: inline-block;
+    padding: 1.5rem 2.5rem;
+    font-size: 1rem;
+}
+#main-nav ul>li>a{
+    color:whitesmoke;
+}
+
+
+
+
+/* --------------------------------------------------------- Landing ----------------------------------------------------------- */
+
+#landing{
+    position: relative;
+    text-align: center;
+    padding: 15rem 10% 7.5rem 10%;
+    min-height: 400px;
+}
+#landing--logo{
+    width: 12.5rem;
+}
+.landing--title{
+    font-size: 4rem;
+    margin: 1rem auto;
+}
+.landing--description{
+    font-size: 2rem;
+}
+#contact-button{
+    color: white;
+    border: 2px solid white;
+    border-radius: 1.5rem;
+    font-size: 2.5rem;
+    padding: 1rem 2rem;
+    background-color: transparent;
+    text-decoration: none;
+    transition-duration: 0.4s;
+    margin-top: 7.5rem;
+    display: inline-block;
+
+}
+
+#contact-button:hover {
+    background-color: white; /* Green */
+    color: #4b79a1;
+}
+
+/* --------------------------------------------------------- About me ----------------------------------------------------------- */
+#about-me{
+    background-color: whitesmoke;
+    color: black;
+}
+#about-me--container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+#about-me--container > div{
+    width: 100%;
+    padding: 1.5rem;
+}
+#about-me--img{
+    width: 250px;
+    height: 250px;
+    display: block;
+    border: 1px solid red;
+    border-radius: 100%;
+    background-image: url("../img/me.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    
+}
+#about-me--text{
+    text-align: justify;
+    line-height: 3rem;
+}

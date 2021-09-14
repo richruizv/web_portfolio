@@ -8,31 +8,48 @@
     <link rel="icon" href="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9JzMwMHB4JyB3aWR0aD0nMzAwcHgnICBmaWxsPSIjRkZGRkZGIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2aWV3Qm94PSIwIDAgNTAgNTQiIHZlcnNpb249IjEuMSIgeD0iMHB4IiB5PSIwcHgiPjx0aXRsZT40MyAtR2VvbWV0cmljIEZvcm0tIChTb2xpZCk8L3RpdGxlPjxkZXNjPkNyZWF0ZWQgd2l0aCBTa2V0Y2guPC9kZXNjPjxnIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0zNTkuMDAwMDAwLCAtODEyLjAwMDAwMCkiIGZpbGw9IiNGRkZGRkYiPjxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDM1OS4wMDAwMDAsIDgxMi4wMDAwMDApIj48cG9seWdvbiBwb2ludHM9IjQ2Ljc0OSAzMC4yNDM3IDI2IDQwLjYxODcgMjYgNTMuMzg2NyI+PC9wb2x5Z29uPjxwb2x5Z29uIHBvaW50cz0iMjQgNTMuMzg2NyAyNCA0MC42MTc3IDMuMjUxIDMwLjI0MzciPjwvcG9seWdvbj48cG9seWdvbiBwb2ludHM9IjI2IDAuNjEzMyAyNiAzOC4zODIzIDQ5LjM4IDI2LjY5MjMiPjwvcG9seWdvbj48cG9seWdvbiBwb2ludHM9IjAuNjE5NiAyNi42OTE5IDIzLjk5OTYgMzguMzgxOSAyMy45OTk2IDAuNjEyOSI+PC9wb2x5Z29uPjwvZz48L2c+PC9nPjwvc3ZnPg==">
     <title id="title">Ricardo Ruíz | Back-end developer</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/style.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/star.css'>
     <script src='main.js'></script>
 </head>
 <body>
-    <header>
-        <nav>
-            <ul id="main-nav" class="nav">
-                <li><a href="">Home</a></li>
-                <li><a href="">Cursos</a></li>
-                <li><a href="">Instructores</a></li>
-                <li><a href="">Blog</a></li>
+    <header id="header">
+        <nav  id="main-nav" class="nav">
+            <ul>
+                <li><a href="#about-me">About me</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#">Contact me</a></li>
+                <li><a href="#">Contact me</a></li>
             </ul>
         </nav>
     </header>
     <main>
+        <div id="stars"></div>
+        <div id="stars2"></div>
+        <div id="stars3"></div>
         <section id="landing">
+            
             <img id="landing--logo" src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9JzMwMHB4JyB3aWR0aD0nMzAwcHgnICBmaWxsPSIjRkZGRkZGIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2aWV3Qm94PSIwIDAgNTAgNTQiIHZlcnNpb249IjEuMSIgeD0iMHB4IiB5PSIwcHgiPjx0aXRsZT40MyAtR2VvbWV0cmljIEZvcm0tIChTb2xpZCk8L3RpdGxlPjxkZXNjPkNyZWF0ZWQgd2l0aCBTa2V0Y2guPC9kZXNjPjxnIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0zNTkuMDAwMDAwLCAtODEyLjAwMDAwMCkiIGZpbGw9IiNGRkZGRkYiPjxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDM1OS4wMDAwMDAsIDgxMi4wMDAwMDApIj48cG9seWdvbiBwb2ludHM9IjQ2Ljc0OSAzMC4yNDM3IDI2IDQwLjYxODcgMjYgNTMuMzg2NyI+PC9wb2x5Z29uPjxwb2x5Z29uIHBvaW50cz0iMjQgNTMuMzg2NyAyNCA0MC42MTc3IDMuMjUxIDMwLjI0MzciPjwvcG9seWdvbj48cG9seWdvbiBwb2ludHM9IjI2IDAuNjEzMyAyNiAzOC4zODIzIDQ5LjM4IDI2LjY5MjMiPjwvcG9seWdvbj48cG9seWdvbiBwb2ludHM9IjAuNjE5NiAyNi42OTE5IDIzLjk5OTYgMzguMzgxOSAyMy45OTk2IDAuNjEyOSI+PC9wb2x5Z29uPjwvZz48L2c+PC9nPjwvc3ZnPg==" alt="Ricardo Ruíz logo, crystal logo">
-            <h1>Ricardo Ruíz velazco</h1>
-            <p> Insert short presentation about what i'm doing here</p>
-            <button> Contact me! </button>
+            <h1 class="landing--title">Ricardo Ruíz velazco</h1>
+            <p class="landing--description"> Insert short presentation about what i'm doing here, what are my interest and what people am i dedicated to</p>
+            <a href="#" id="contact-button"> Let's work together! </a>
+        </section>        
+        <section id="about-me" class="section">
+            <h2 class="landing-title">About me</h2>
+            <div id="about-me--container">
+                <div>
+                    <div id="about-me--img"></div>
+                    
+                </div>
+                <div>
+                    <p id="about-me--text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, nulla? Exercitationem maiores modi rem voluptatibus dolore porro sunt, officia veritatis obcaecati natus neque consequatur quasi fugiat cupiditate! Expedita, vel cum?</p>
+                </div>
+            </div>
+            
+            
         </section>
-        <section id="about-me">
-            <h2>About me</h2>
-            <img id="about-me--img" src="https://c8.alamy.com/comp/2C1E622/serious-computer-programmer-developer-working-in-it-office-sitting-at-desk-and-coding-working-on-a-project-in-software-development-company-or-2C1E622.jpg">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, nulla? Exercitationem maiores modi rem voluptatibus dolore porro sunt, officia veritatis obcaecati natus neque consequatur quasi fugiat cupiditate! Expedita, vel cum?</p>
+        <section id="projects" class="section">
             <div>
                 <div>
                     <h4>Back-end development</h4>
@@ -47,10 +64,17 @@
                     <p>Description about what can i do for mentoring</p>
                 </div>
             </div>
-            
-        </section>
-        <section id="projects">
             <h2>Some of my experience</h2>
+            <h1>Header 1</h1>
+            <h2>Header 2</h2>
+            <h3>header 3</h3>
+            <h4>Header 4</h4>
+            <h5>Header 5</h5>
+            <p>Paragraph</p>
+            <li>
+                <ul>List 1</ul>
+                <ul>List 2</ul>
+            </li>
         </section>
     </main>
     <footer>
