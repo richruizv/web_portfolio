@@ -42,7 +42,7 @@ h1,h2,h3,h4,h5{
     font-family: 'Open Sans', sans-serif;
 }
 p,a{
-    font-size: 2em;
+    font-size: 2rem;
 }
 
 html{
@@ -53,6 +53,8 @@ html{
 
 .landing-title{
     font-size: 3rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
     text-align: center;
 }
 .section{
@@ -119,33 +121,83 @@ html{
     color: #4b79a1;
 }
 
-/* --------------------------------------------------------- About me ----------------------------------------------------------- */
-#about-me{
+/* ---------------------------------------------------------Presentation ----------------------------------------------------------- */
+#presentation{
     background-color: whitesmoke;
     color: black;
+
 }
-#about-me--container{
+#about-me{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 }
-#about-me--container > div{
-    width: 100%;
-    padding: 1.5rem;
+#about-me > div{
+    min-height: 30rem;
+    flex-basis: 30rem;
 }
+
+#about-me > div:nth-of-type(1){
+    flex-grow: 1;
+}
+#about-me > div:nth-of-type(2){
+    flex-grow: 3;
+}
+
 #about-me--img{
-    width: 250px;
-    height: 250px;
+    width: 25rem;
+    height: 25rem;
     display: block;
-    border: 1px solid red;
     border-radius: 100%;
     background-image: url("../img/me.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    margin: 0 auto;
+    margin: 2.4rem auto;
     
+}
+#about-me--title{
+    text-align: left;
 }
 #about-me--text{
     text-align: justify;
     line-height: 3rem;
+    
+}
+
+/* ---------------------------------------------------------Education ----------------------------------------------------------- */
+#education{
+}
+#my_courses{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.courses{
+    flex-basis: 15rem;
+    font-size: 0.25rem;
+    text-align: center;
+    padding: 1rem;
+    margin: 1rem ;
+    background-color: white;
+    border-radius: 1rem;
+
+}
+.courses a{
+    font-size: 1.5rem;
+    line-height: 0.1rem;
+}
+.courses img{
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    padding: 1rem 2rem;
+
+}
+#see_all{
+    color: white;
+    margin: 2rem;
+    display: block;
+    text-align: center;
+    
 }
