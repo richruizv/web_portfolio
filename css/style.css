@@ -21,7 +21,7 @@
     --border-radius: 60px 5px;
     --fade-green: rgba(57, 87, 64, 0.55);
   }
-  /*
+/*
 * { outline: 2px dotted red }
 * * { outline: 2px dotted green }
 * * * { outline: 2px dotted orange }
@@ -41,8 +41,20 @@
 h1,h2,h3,h4,h5{
     font-family: 'Open Sans', sans-serif;
 }
+h1{
+    font-size: 4rem;
+}
+h2{
+    font-size: 3rem;
+}
+h3{
+    font-size: 2.5rem;
+}
+h4{
+    font-size: 2.25rem;
+}
 p,a{
-    font-size: 2rem;
+    font-size: 1.75rem;
 }
 
 html{
@@ -50,6 +62,13 @@ html{
     color: white;
 }
 
+.see_all{
+    color: white;
+    margin: 2rem;
+    display: block;
+    text-align: center;
+    
+}
 
 .landing-title{
     font-size: 3rem;
@@ -60,6 +79,18 @@ html{
 .section{
     padding: 3rem 10%;
 }
+.btn-link{
+    color: white;
+    margin: 1rem;
+    padding: 1rem 2rem;
+    border-radius: 0.5rem;
+    background-color:green;
+}
+
+.btn-link:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+  }
 /* --------------------------------------------------------- navigation ----------------------------------------------------------- */
 #header{
     position: fixed;
@@ -165,16 +196,15 @@ html{
 }
 
 /* ---------------------------------------------------------Education ----------------------------------------------------------- */
-#education{
-}
-#my_courses{
+
+#my_courses,#my_education{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
 }
 .courses{
-    flex-basis: 15rem;
+    flex-basis: 17.5rem;
     font-size: 0.25rem;
     text-align: center;
     padding: 1rem;
@@ -194,10 +224,116 @@ html{
     padding: 1rem 2rem;
 
 }
-#see_all{
-    color: white;
+
+
+.education_card{
     margin: 2rem;
-    display: block;
-    text-align: center;
-    
+    flex-basis: 32rem;
+
 }
+.education_card--img{    
+    width: 100%;
+    height: 20rem;
+}
+.education_card--container{
+    padding: 1rem;
+}
+.education_card--container h4{
+    font-size: 2rem;
+    text-align: center;
+    margin: 1rem auto;
+}
+
+.education_card--container p{
+    text-align: justify;
+    line-height: 2.5rem;
+
+}
+
+#unam{
+    background-image: url('../img/unam.jpg');
+    background-position: center;
+    background-size: 100% auto;
+}
+
+#english{
+    background-image: url('../img/calgary.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+#continuing-education{
+    background-image: url('../img/continue_education.png');
+    background-position: center;
+    background-size: cover;
+}
+
+/* --------------------------------------------------------- Work ----------------------------------------------------------- */
+#work{
+    padding: 3rem 5%;
+}
+#project_container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.project{
+    flex-basis: 60rem;
+    height: 35rem;
+    margin: 2rem;
+    transition: 1s;
+
+}
+.project--description{
+    display: flex;
+    flex-flow: wrap column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    width:100%;
+    height:100%;
+    background-color: rgba(0,0,0,0.75);
+    
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s linear;
+
+}
+.project--description h3{
+    line-height: 4rem;
+}
+.project--description p{
+    text-align: justify;
+    font-size: 2rem;
+    line-height: 2.5rem;
+}
+#fantasmagia{
+    background-image: url('../img/fantasmagia.png');
+    background-position: center;
+    background-size: 100% 100%;
+}
+
+#enlace{
+    background-image: url('../img/enlace.png');
+    background-position: center;
+    background-size: 100% 100%;
+}
+
+#buscador_sedes{
+    background-image: url('../img/buscador_sedes.png');
+    background-position: center;
+    background-size: 100% 100%;
+}
+
+#estudy{
+    background-image: url('../img/estudy.png');
+    background-position: center;
+    background-size: 100% 100%;
+}
+
+.project:hover .project--description{
+    visibility: visible;
+    opacity: 1;
+}
+
