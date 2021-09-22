@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding:0;
+            box-sizing: border-box;
+        }
+
+        .el{
+            height: 10rem;
+        }
+
+        main{
+            display: flex;
+            flex-wrap: wrap;
+
+        }
+
+        .el-container{
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+        }
+
+        #el1{
+            width: 100%;    
+            background-color: darkblue;
+        }
+        #el2{
+            width: 100%;    
+            background-color: white;
+        }
+        #el3{
+            width: 100%;    
+            background-color: cadetblue;
+        }
+        #el4{
+            width: 100%;    
+            background-color: yellowgreen;
+        }
+       
+        
+        @media only screen and (min-width:768px){
+            #el1{
+                width: 50%;
+                height: 20rem;
+            }
+            .el-container{
+                width: 50%;
+            }
+            
+            #el4{
+                width: 100%;    
+            }
+        }
+
+
+        @media only screen and (min-width:1024px){
+            main{
+                flex-wrap: nowrap;
+                flex-direction: row-reverse;
+            }
+            #el1{
+                width: 33%;
+                height: 20rem;
+            }
+            .el-container{
+                width: 33%;
+            }
+            #el4{
+                width: 34%;
+                height: 20rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div id="el1" class="el"></div>
+        <div class="el-container">
+            <div id="el2" class="el"></div>
+            <div id="el3" class="el"></div>
+        </div>
+        <div id="el4" class="el"></div>
+    </main>
+</body>
+</html>
