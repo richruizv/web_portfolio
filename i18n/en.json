@@ -1,0 +1,31 @@
+{
+  "title_about_me" : "About me",
+  "title_education" : "Education",
+  "title_work" : "My work",
+  "title_courses" : "My courses",
+  "title_blog" : "Blog",
+  "title_contact" : "Contact",
+  "main_presentation" : "Insert short presentation about what i'm doing here, what are my interest and what people am i dedicated to",
+  "work_together" : "Let's work together!",
+  "description_about_me" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, nulla? Exercitationem maiores modi rem voluptatibus dolore porro sunt, officia veritatis obcaecati natus neque consequatur quasi fugiat cupiditate! Expedita, vel cum?",
+  "title_education_1": "Computer Engineering - UNAM",
+  "text_education_1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti libero suscipit maiores consectetur deserunt magnam veritatis provident! Explicabo eveniet pariatur vel nemo fugit. Illum possimus, est eius dicta qui aspernatur.",
+  "title_education_2": "Intensive English program in Canada",
+  "text_education_2": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti libero suscipit maiores consectetur deserunt magnam veritatis provident! Explicabo eveniet pariatur vel nemo fugit. Illum possimus, est eius dicta qui aspernatur.",
+  "title_education_3": "Continuing education",
+  "text_education_3": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti libero suscipit maiores consectetur deserunt magnam veritatis provident! Explicabo eveniet pariatur vel nemo fugit. Illum possimus, est eius dicta qui aspernatur.",
+  "text_see_all": "See all",
+  "text_with_love": "Made with",
+  "text_with_love_2": "by",
+  "text_check":"Check",
+
+  "title_project_1": "Fantasmagia",
+  "text_project_1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo amet aspernatur esse impedit deserunt delectus nulla repellendus itaque, quam, dolorem ullam id? Porro tempora cumque quo ab laudantium, repudiandae voluptate?",
+  "title_project_2": "Fantasmagia",
+  "text_project_2": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo amet aspernatur esse impedit deserunt delectus nulla repellendus itaque, quam, dolorem ullam id? Porro tempora cumque quo ab laudantium, repudiandae voluptate?",
+  "title_project_3": "Fantasmagia",
+  "text_project_3": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo amet aspernatur esse impedit deserunt delectus nulla repellendus itaque, quam, dolorem ullam id? Porro tempora cumque quo ab laudantium, repudiandae voluptate?",
+  "title_project_4": "Fantasmagia",
+  "text_project_4": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo amet aspernatur esse impedit deserunt delectus nulla repellendus itaque, quam, dolorem ullam id? Porro tempora cumque quo ab laudantium, repudiandae voluptate?"
+  
+}

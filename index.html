@@ -14,20 +14,20 @@
     <link rel='stylesheet' type='text/css' media='screen' href='css/star.css'>
     <link rel='stylesheet' type='text/css' media='screen' href='css/bounce.css'>
     <script src="https://kit.fontawesome.com/2192770386.js" crossorigin="anonymous"></script>
-    <script src='main.js'></script>
+    
 </head>
 <body>
     <header id="header">
         <nav  id="main-nav" class="nav">
             <ul>
-                <li><a href="#presentation">About me</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#education">Education</a></li>
-                <li><a href="#work">My work</a></li>
-                <li><a href="#contact">Contact me</a></li>
+                <li><a href="#presentation"  data-i18n="title_about_me"></a></li>
+                <li><a href="#" data-i18n="title_blog"></a></li>
+                <li><a href="#education" data-i18n="title_education"></a></li>
+                <li><a href="#work" data-i18n="title_work"></a></li>
+                <li><a href="#contact" data-i18n="title_contact"></a></li>
                 <li id="language-container">
-                    <img class="img-language" src="img/united-kingdom.png" alt="flag of united kingdom"> 
-                    <img class="img-language" src="img/spain.png" alt="flag of spain">
+                    <img id="i18en" class="img-language" src="img/united-kingdom.png" alt="flag of united kingdom"> 
+                    <img id="i18es" class="img-language" src="img/spain.png" alt="flag of spain">
                 </li>
             </ul>
         </nav>
@@ -40,8 +40,8 @@
             
             <img id="landing--logo" src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9JzMwMHB4JyB3aWR0aD0nMzAwcHgnICBmaWxsPSIjRkZGRkZGIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2aWV3Qm94PSIwIDAgNTAgNTQiIHZlcnNpb249IjEuMSIgeD0iMHB4IiB5PSIwcHgiPjx0aXRsZT40MyAtR2VvbWV0cmljIEZvcm0tIChTb2xpZCk8L3RpdGxlPjxkZXNjPkNyZWF0ZWQgd2l0aCBTa2V0Y2guPC9kZXNjPjxnIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0zNTkuMDAwMDAwLCAtODEyLjAwMDAwMCkiIGZpbGw9IiNGRkZGRkYiPjxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDM1OS4wMDAwMDAsIDgxMi4wMDAwMDApIj48cG9seWdvbiBwb2ludHM9IjQ2Ljc0OSAzMC4yNDM3IDI2IDQwLjYxODcgMjYgNTMuMzg2NyI+PC9wb2x5Z29uPjxwb2x5Z29uIHBvaW50cz0iMjQgNTMuMzg2NyAyNCA0MC42MTc3IDMuMjUxIDMwLjI0MzciPjwvcG9seWdvbj48cG9seWdvbiBwb2ludHM9IjI2IDAuNjEzMyAyNiAzOC4zODIzIDQ5LjM4IDI2LjY5MjMiPjwvcG9seWdvbj48cG9seWdvbiBwb2ludHM9IjAuNjE5NiAyNi42OTE5IDIzLjk5OTYgMzguMzgxOSAyMy45OTk2IDAuNjEyOSI+PC9wb2x5Z29uPjwvZz48L2c+PC9nPjwvc3ZnPg==" alt="Ricardo Ruíz logo, crystal logo">
             <h1 class="landing--title">Ricardo Ruíz velazco</h1>
-            <p class="landing--description"> Insert short presentation about what i'm doing here, what are my interest and what people am i dedicated to</p>
-            <a href="whatsapp://send?abid=+525572752744&text=I'm interested in working together!" id="contact-button"> Let's work together! </a>
+            <p class="landing--description" data-i18n="main_presentation"></p>
+            <a href="whatsapp://send?abid=+525572752744&text=I'm interested in working together!" data-i18n="work_together" id="contact-button"></a>
         </section>        
         <section id="presentation" class="section">
             <div id="about-me">
@@ -50,37 +50,37 @@
                     
                 </div>
                 <div>
-                    <h2 id="about-me--title" class="landing-title" >About me</h2>
-                    <p id="about-me--text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, nulla? Exercitationem maiores modi rem voluptatibus dolore porro sunt, officia veritatis obcaecati natus neque consequatur quasi fugiat cupiditate! Expedita, vel cum?</p>
+                    <h2 id="about-me--title"  data-i18n="title_about_me" class="landing-title" ></h2>
+                    <p id="about-me--text" data-i18n="description_about_me"></p>
                 </div>
             </div>
         </section>
         <section id="education" class="section">
-            <h2 class="landing-title" >Education</h2>
+            <h2 class="landing-title" data-i18n="title_education" ></h2>
             <div id="my_education">
                 <div class="education_card">
                     <div id="unam" class="education_card--img"></div>
                     <div class="education_card--container">
-                        <h4>Computer Engineering - UNAM</h4>
-                        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti libero suscipit maiores consectetur deserunt magnam veritatis provident! Explicabo eveniet pariatur vel nemo fugit. Illum possimus, est eius dicta qui aspernatur.</p>
+                        <h4 data-i18n="title_education_1"></h4>
+                        <p data-i18n="text_education_1"></p>
                     </div>
                 </div>
                 <div class="education_card">
                     <div id="english" class="education_card--img"></div>
                     <div class="education_card--container">
-                        <h4>Intensive English program in Canada</h4>
-                        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti libero suscipit maiores consectetur deserunt magnam veritatis provident! Explicabo eveniet pariatur vel nemo fugit. Illum possimus, est eius dicta qui aspernatur.</p>
+                        <h4 data-i18n="title_education_2"></h4>
+                        <p data-i18n="text_education_2"></p>
                     </div>
                 </div>
                 <div class="education_card">
                     <div id="continuing-education" class="education_card--img"></div>
                     <div class="education_card--container">
-                        <h4>Continuing education</h4>
-                        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti libero suscipit maiores consectetur deserunt magnam veritatis provident! Explicabo eveniet pariatur vel nemo fugit. Illum possimus, est eius dicta qui aspernatur.</p>
+                        <h4 data-i18n="title_education_3"></h4>
+                        <p data-i18n="text_education_3"></p>
                     </div>
                 </div>
             </div>
-            <h3 class="landing-title" >Courses</h3>
+            <h3 class="landing-title" data-i18n="title_courses" ></h3>
             <div id="my_courses">
                 <div class="courses">
                     <img src="https://static.platzi.com/media/achievements/badge-github-0b729570-934d-47d8-ba6b-610d7f15e0ec.png" alt="Curso Profesional de Git y GitHub">
@@ -115,7 +115,7 @@
                     <p><a target="_blank"  href="https://platzi.com/p/Richrv/curso/2218-pensamiento-logico/diploma/detalle/">Curso de Manipulación y Análisis de Datos con Pandas y Python</a></p>
                 </div>
             </div>
-            <h3><a class="see_all" href="#"> See all</a></h3>
+            <h3><a class="see_all" href="#" data-i18n="text_see_all"></a></h3>
 
         </section>
             
@@ -126,37 +126,37 @@
             <div id="project_container">
                 <div id="fantasmagia" class="project">
                     <div class="project--description">
-                        <h3>Fantasmagia</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo amet aspernatur esse impedit deserunt delectus nulla repellendus itaque, quam, dolorem ullam id? Porro tempora cumque quo ab laudantium, repudiandae voluptate?</p>
-                        <a href="#" class="btn-link">Check</a>
+                        <h3 data-i18n="title_project_1"></h3>
+                        <p data-i18n="text_project_1"></p>
+                        <a href="#" class="btn-link" data-i18n="text-check"></a>
                     </div>
                 </div>
                 <div id="enlace" class="project">
                     <div class="project--description">
-                        <h3>Fantasmagia</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo amet aspernatur esse impedit deserunt delectus nulla repellendus itaque, quam, dolorem ullam id? Porro tempora cumque quo ab laudantium, repudiandae voluptate?</p>
-                        <a href="#" class="btn-link">Check</a>
+                        <h3 data-i18n="title_project_2"></h3>
+                        <p data-i18n="text_project_2"></p>
+                        <a href="#" class="btn-link" data-i18n="text-check"></a>
                     </div>
                 </div>
                 <div id="buscador_sedes" class="project">
                     <div class="project--description">
-                        <h3>Fantasmagia</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo amet aspernatur esse impedit deserunt delectus nulla repellendus itaque, quam, dolorem ullam id? Porro tempora cumque quo ab laudantium, repudiandae voluptate?</p>
-                        <a href="#" class="btn-link">Check</a>
+                        <h3 data-i18n="title_project_3"></h3>
+                        <p data-i18n="text_project_3"></p>
+                        <a href="#" class="btn-link" data-i18n="text-check"></a>
                     </div>
                 </div>
                 <div id="estudy" class="project">
                     <div class="project--description">
-                        <h3>Fantasmagia</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo amet aspernatur esse impedit deserunt delectus nulla repellendus itaque, quam, dolorem ullam id? Porro tempora cumque quo ab laudantium, repudiandae voluptate?</p>
-                        <a href="#" class="btn-link">Check</a>
+                        <h3 data-i18n="title_project_4"></h3>
+                        <p data-i18n="text_project_4"></p>
+                        <a href="#" class="btn-link" data-i18n="text-check"></a>
                     </div>
                 </div>
             </div>
-            <h3><a class="see_all" href="#"> See all</a></h3>
+            <h3><a class="see_all" href="#" data-i18n="text_see_all"></a></h3>
         </section>
         <section id="contact" class="section">
-            <h2 class="landing-title" >Contact</h2>
+            <h2 class="landing-title" data-i18n="title_contact"></h2>
             <a class="contact--email" href="mailto:rich.ruiz.v@gmail.com">rich.ruiz.v@gmail.com</a>
             <div class="contact--logos">
                 <a target="_blank" href="https://github.com/richruizv"><i class="fab fa-github fa-3x social-network"></i></a>
@@ -165,9 +165,10 @@
                 <a target="_blank" href="https://twitter.com/elvisionesto"><i class="fab fa-twitter fa-3x social-network"></i></a>
                 <a target="_blank" href=" https://wa.me/525572752744"><i class="fab fa-whatsapp fa-3x social-network"></i></a>
             </div>
-            <h5>Made with <i class="fas fa-heart" style="color: red"></i> by <a href="https://richend.dev">Ricardo Ruíz</a></h5>
+            <h5><span data-i18n="text_with_love"></span> <i class="fas fa-heart" style="color: red"></i> <span data-i18n="text_with_love_2"></span> <a href="https://richend.dev">Ricardo Ruíz</a></h5>
         </section>
     </main>
-
+    <script src='js/main.js'></script>
+    <script src='js/internationalization.js'></script>
 </body>
 </html>
