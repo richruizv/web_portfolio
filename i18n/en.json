@@ -22,7 +22,7 @@
   "title_project_1": "Fantasmagia",
   "text_project_1": "We designed a videogame from scratch to help children with language issues to learn how to associate objects with its properties. We use C++ and OPENGL",
   "title_project_2": "Virtual School ",
-  "text_project_2": "We designed a system to manage information by a web application that simulates the entire school environment making it easier to get reports and communicate easily between areas and profiles.  We use MySQL, PHP, and javascript.",
+  "text_project_2": "We designed a web application that simulates the entire school environment making it easier to get reports and communicate easily between areas and profiles.  We use MySQL, PHP, and javascript.",
   "title_project_3": "Job searcher",
   "text_project_3": "I designed an interface for teachers and directors that was looking for a job near their place. They only put the state, city, and position, and the system returns all the nearest job offers. People of the whole country used the system. I use angularJS.",
   "title_project_4": "Virtual School 2.0",
