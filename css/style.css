@@ -188,6 +188,7 @@ html{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    padding-bottom: 5rem;
 }
 #about-me > div{
     min-height: 30rem;
@@ -215,7 +216,7 @@ html{
 #about-me--title{
     text-align: left;
 }
-#about-me--text{
+.about-me--text{
     text-align: justify;
     line-height: 3rem;
     
